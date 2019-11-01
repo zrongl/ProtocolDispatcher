@@ -22,7 +22,7 @@ pod 'ProtocolDispatcher'
 
 ## Author
 
-zrongl, ronglei0324@163.com
+zrongl, rong0324@163.com
 
 ## License
 
