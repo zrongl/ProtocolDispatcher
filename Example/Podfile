@@ -3,11 +3,16 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'ProtocolDispatcher_Example' do
-  pod 'ProtocolDispatcher', :path => '../'
+#  pod 'ProtocolDispatcher', :path => '../'
+  pod 'ProtocolDispatcher', :podspec => '../ProtocolDispatcher.podspec'
 
   target 'ProtocolDispatcher_Tests' do
     inherit! :search_paths
 
     
+  end
+  
+  target 'ProtocolDispatcherBinary' do
+  
   end
 end

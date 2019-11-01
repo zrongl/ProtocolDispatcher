@@ -1,0 +1,6 @@
+framework module Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary {
+  umbrella header "Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary-umbrella.h"
+
+  export *
+  module * { export * }
+}

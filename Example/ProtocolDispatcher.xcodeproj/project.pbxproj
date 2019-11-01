@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A1454AA7683A09080C01154 /* Pods_ProtocolDispatcher_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E2C57B0CD487C6B335A27E /* Pods_ProtocolDispatcher_Example.framework */; };
+		5D60A778236BE2C600576A2C /* ProtocolDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60A776236BE2C600576A2C /* ProtocolDispatcher.m */; };
+		5D60A77B236BF81500576A2C /* ProtocolDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D60A777236BE2C600576A2C /* ProtocolDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +26,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7DB97FCE31CA11AE440B4975 /* Pods_ProtocolDispatcher_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D3A9AEC09099BAA85F901C /* Pods_ProtocolDispatcher_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DBA7B268FB224C90470F4A0D /* Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76A305D7EE8065E59EC733F /* Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5D60A76B236BE0ED00576A2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0D66B2BD21B25D7433ADFEFE /* Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.debug.xcconfig"; path = "Target Support Files/Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary/Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.debug.xcconfig"; sourceTree = "<group>"; };
 		1D72DED6EB947B6627486CD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B4DE4B1EC715DBB9B5D85D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4CC9BEDE51911DB7E53547B9 /* Pods-ProtocolDispatcher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolDispatcher_Example.debug.xcconfig"; path = "Target Support Files/Pods-ProtocolDispatcher_Example/Pods-ProtocolDispatcher_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		547594453B2D48FE991D7056 /* Pods-ProtocolDispatcher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolDispatcher_Tests.release.xcconfig"; path = "Target Support Files/Pods-ProtocolDispatcher_Tests/Pods-ProtocolDispatcher_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D60A76D236BE0ED00576A2C /* libProtocolDispatcherBinary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtocolDispatcherBinary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D60A776236BE2C600576A2C /* ProtocolDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProtocolDispatcher.m; path = Pods/ProtocolDispatcher/ProtocolDispatcher/Classes/ProtocolDispatcher.m; sourceTree = SOURCE_ROOT; };
+		5D60A777236BE2C600576A2C /* ProtocolDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolDispatcher.h; path = Pods/ProtocolDispatcher/ProtocolDispatcher/Classes/ProtocolDispatcher.h; sourceTree = SOURCE_ROOT; };
 		5FC53B6EF85AA70418692C40 /* Pods-ProtocolDispatcher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolDispatcher_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ProtocolDispatcher_Tests/Pods-ProtocolDispatcher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ProtocolDispatcher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolDispatcher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,10 +85,20 @@
 		7CF47A294FB5A386AE836998 /* Pods-ProtocolDispatcher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolDispatcher_Example.release.xcconfig"; path = "Target Support Files/Pods-ProtocolDispatcher_Example/Pods-ProtocolDispatcher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96D3A9AEC09099BAA85F901C /* Pods_ProtocolDispatcher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtocolDispatcher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A633DF3EE5CA3295B2932B22 /* Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.release.xcconfig"; path = "Target Support Files/Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary/Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.release.xcconfig"; sourceTree = "<group>"; };
 		BCC0EF32D06F58F51661CA00 /* ProtocolDispatcher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ProtocolDispatcher.podspec; path = ../ProtocolDispatcher.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F76A305D7EE8065E59EC733F /* Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D60A76A236BE0ED00576A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA7B268FB224C90470F4A0D /* Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,12 +124,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D60A76E236BE0ED00576A2C /* ProtocolDispatcherBinary */ = {
+			isa = PBXGroup;
+			children = (
+				5D60A777236BE2C600576A2C /* ProtocolDispatcher.h */,
+				5D60A776236BE2C600576A2C /* ProtocolDispatcher.m */,
+			);
+			path = ProtocolDispatcherBinary;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ProtocolDispatcher */,
 				6003F5B5195388D20070C39A /* Tests */,
+				5D60A76E236BE0ED00576A2C /* ProtocolDispatcherBinary */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				C315C3E519D69CDC600B97D1 /* Pods */,
@@ -112,6 +151,7 @@
 			children = (
 				6003F58A195388D20070C39A /* ProtocolDispatcher_Example.app */,
 				6003F5AE195388D20070C39A /* ProtocolDispatcher_Tests.xctest */,
+				5D60A76D236BE0ED00576A2C /* libProtocolDispatcherBinary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +165,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				70E2C57B0CD487C6B335A27E /* Pods_ProtocolDispatcher_Example.framework */,
 				96D3A9AEC09099BAA85F901C /* Pods_ProtocolDispatcher_Tests.framework */,
+				F76A305D7EE8065E59EC733F /* Pods_ProtocolDispatcher_Example_ProtocolDispatcherBinary.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,13 +233,45 @@
 				7CF47A294FB5A386AE836998 /* Pods-ProtocolDispatcher_Example.release.xcconfig */,
 				5FC53B6EF85AA70418692C40 /* Pods-ProtocolDispatcher_Tests.debug.xcconfig */,
 				547594453B2D48FE991D7056 /* Pods-ProtocolDispatcher_Tests.release.xcconfig */,
+				0D66B2BD21B25D7433ADFEFE /* Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.debug.xcconfig */,
+				A633DF3EE5CA3295B2932B22 /* Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5D60A77A236BF80A00576A2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D60A77B236BF81500576A2C /* ProtocolDispatcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5D60A76C236BE0ED00576A2C /* ProtocolDispatcherBinary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D60A773236BE0ED00576A2C /* Build configuration list for PBXNativeTarget "ProtocolDispatcherBinary" */;
+			buildPhases = (
+				96BC1AADB624C57CFF068F35 /* [CP] Check Pods Manifest.lock */,
+				5D60A77A236BF80A00576A2C /* Headers */,
+				5D60A769236BE0ED00576A2C /* Sources */,
+				5D60A76A236BE0ED00576A2C /* Frameworks */,
+				5D60A76B236BE0ED00576A2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolDispatcherBinary;
+			productName = ProtocolDispatcherBinary;
+			productReference = 5D60A76D236BE0ED00576A2C /* libProtocolDispatcherBinary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		6003F589195388D20070C39A /* ProtocolDispatcher_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ProtocolDispatcher_Example" */;
@@ -247,6 +320,14 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ronglei0324@163.com";
 				TargetAttributes = {
+					5D60A76C236BE0ED00576A2C = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = 2X8F4YDU8D;
+						ProvisioningStyle = Automatic;
+					};
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RKFT92L7M9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -268,6 +349,7 @@
 			targets = (
 				6003F589195388D20070C39A /* ProtocolDispatcher_Example */,
 				6003F5AD195388D20070C39A /* ProtocolDispatcher_Tests */,
+				5D60A76C236BE0ED00576A2C /* ProtocolDispatcherBinary */,
 			);
 		};
 /* End PBXProject section */
@@ -335,6 +417,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		96BC1AADB624C57CFF068F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ED29F28846F0E1CF8C78776E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +464,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D60A769236BE0ED00576A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D60A778236BE2C600576A2C /* ProtocolDispatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,6 +528,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5D60A774236BE0ED00576A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D66B2BD21B25D7433ADFEFE /* Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2X8F4YDU8D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D60A775236BE0ED00576A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A633DF3EE5CA3295B2932B22 /* Pods-ProtocolDispatcher_Example-ProtocolDispatcherBinary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2X8F4YDU8D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,6 +685,7 @@
 			baseConfigurationReference = 4CC9BEDE51911DB7E53547B9 /* Pods-ProtocolDispatcher_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RKFT92L7M9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProtocolDispatcher/ProtocolDispatcher-Prefix.pch";
 				INFOPLIST_FILE = "ProtocolDispatcher/ProtocolDispatcher-Info.plist";
@@ -510,6 +702,7 @@
 			baseConfigurationReference = 7CF47A294FB5A386AE836998 /* Pods-ProtocolDispatcher_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RKFT92L7M9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProtocolDispatcher/ProtocolDispatcher-Prefix.pch";
 				INFOPLIST_FILE = "ProtocolDispatcher/ProtocolDispatcher-Info.plist";
@@ -570,6 +763,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5D60A773236BE0ED00576A2C /* Build configuration list for PBXNativeTarget "ProtocolDispatcherBinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D60A774236BE0ED00576A2C /* Debug */,
+				5D60A775236BE0ED00576A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "ProtocolDispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "1110"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "ProtocolDispatcher_Example.app"
-               BlueprintName = "ProtocolDispatcher_Example"
+               BlueprintIdentifier = "5D60A76C236BE0ED00576A2C"
+               BuildableName = "libProtocolDispatcherBinary.a"
+               BlueprintName = "ProtocolDispatcherBinary"
                ReferencedContainer = "container:ProtocolDispatcher.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,30 +27,11 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ProtocolDispatcher_Example.app"
-            BlueprintName = "ProtocolDispatcher_Example"
-            ReferencedContainer = "container:ProtocolDispatcher.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "ProtocolDispatcher_Tests.xctest"
-               BlueprintName = "ProtocolDispatcher_Tests"
-               ReferencedContainer = "container:ProtocolDispatcher.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -76,16 +57,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ProtocolDispatcher_Example.app"
-            BlueprintName = "ProtocolDispatcher_Example"
+            BlueprintIdentifier = "5D60A76C236BE0ED00576A2C"
+            BuildableName = "libProtocolDispatcherBinary.a"
+            BlueprintName = "ProtocolDispatcherBinary"
             ReferencedContainer = "container:ProtocolDispatcher.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

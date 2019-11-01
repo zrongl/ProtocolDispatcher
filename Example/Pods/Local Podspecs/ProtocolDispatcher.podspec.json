@@ -1,19 +1,19 @@
 {
   "name": "ProtocolDispatcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of ProtocolDispatcher.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ronglei0324@163.com/ProtocolDispatcher",
+  "homepage": "https://github.com/zrongl/ProtocolDispatcher",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ronglei0324@163.com": "ronglei0324@163.com"
+    "Zrongl": "ronglei0324@163.com"
   },
   "source": {
-    "git": "https://github.com/ronglei0324@163.com/ProtocolDispatcher.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zrongl/ProtocolDispatcher.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

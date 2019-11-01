@@ -1,16 +1,16 @@
 PODS:
-  - ProtocolDispatcher (0.1.0)
+  - ProtocolDispatcher (0.1.1)
 
 DEPENDENCIES:
-  - ProtocolDispatcher (from `../`)
+  - ProtocolDispatcher (from `../ProtocolDispatcher.podspec`)
 
 EXTERNAL SOURCES:
   ProtocolDispatcher:
-    :path: "../"
+    :podspec: "../ProtocolDispatcher.podspec"
 
 SPEC CHECKSUMS:
-  ProtocolDispatcher: ea5c9f1da091448fd09c0fd785655f785cfe6654
+  ProtocolDispatcher: 52c7b00c5a9360a99128f37ede32e01e89e6ffe5
 
-PODFILE CHECKSUM: d589d59c972d7454f8a7d3ddff3e343f8e970349
+PODFILE CHECKSUM: c2af76730c41062b6a06ecfdca429c82a7991cc9
 
 COCOAPODS: 1.8.3
