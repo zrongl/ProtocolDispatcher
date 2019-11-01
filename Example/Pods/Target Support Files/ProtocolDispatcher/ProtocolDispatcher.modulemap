@@ -1,0 +1,6 @@
+framework module ProtocolDispatcher {
+  umbrella header "ProtocolDispatcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

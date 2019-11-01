@@ -1,0 +1,16 @@
+PODS:
+  - ProtocolDispatcher (0.1.0)
+
+DEPENDENCIES:
+  - ProtocolDispatcher (from `../`)
+
+EXTERNAL SOURCES:
+  ProtocolDispatcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProtocolDispatcher: ea5c9f1da091448fd09c0fd785655f785cfe6654
+
+PODFILE CHECKSUM: d589d59c972d7454f8a7d3ddff3e343f8e970349
+
+COCOAPODS: 1.8.3

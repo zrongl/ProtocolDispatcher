@@ -1,0 +1,6 @@
+framework module Pods_ProtocolDispatcher_Tests {
+  umbrella header "Pods-ProtocolDispatcher_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
